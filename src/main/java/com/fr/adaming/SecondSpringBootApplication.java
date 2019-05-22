@@ -51,7 +51,8 @@ public class SecondSpringBootApplication {
 //		lu1.add(serv.findById(3L).get());
 		
 		LogConfig.getLogger(SecondSpringBootApplication.class).fatal("qsdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-	
+		LogConfig.getLogger(SecondSpringBootApplication.class).warn("qsdf");
+		
 		
 		
 		
