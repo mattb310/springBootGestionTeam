@@ -14,6 +14,11 @@ import com.fr.adaming.dao.IUserDao;
 import com.fr.adaming.entity.User;
 import com.fr.adaming.service.util.IUserService;
 
+
+/**
+ * @author Matthieu Billaud
+ *
+ */
 @Service
 public class UserService implements IUserService {
 
