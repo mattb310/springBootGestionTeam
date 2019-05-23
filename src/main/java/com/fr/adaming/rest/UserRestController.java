@@ -69,5 +69,10 @@ public class UserRestController {
 	public void delete(@PathVariable Long id) {
 		service.delete(id);
 	}
+	
+	@RequestMapping(path = "/hello", method = RequestMethod.GET)
+	public String sayHello() {
+		return "Hello From Java";
+	}
 
 }
